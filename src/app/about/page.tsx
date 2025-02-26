@@ -19,18 +19,14 @@ const page = () => {
       </Badge>
       <div className="flex flex-col gap-5">
         <Heading>
-          Full-Stack web developer In Uzbekistan.
+          {`Full-Stack web developer In Uzbekistan.`}
         </Heading>
 
         <FramerWrapper y={0} x={100}>
           <p className=" font-poppins text-xl w-full text-primary max-sm:text-lg ">
-            I am a Full Stack Web Developer from Samarkand, Samarkand city,
-            Uzbekistan. I'm passionate about crafting web projects and
-            contributing to open-source communities. I specialize in modern
-            JavaScript frameworks for back-end applictions using node.js with 
-            high quality and security for users's data and
-             front-end side also with responsive CSS design, focusing on
-            creating pixel-perfect, user-friendly interfaces.
+            {`I specialize in modern JavaScript frameworks for back-end applications using node.js with 
+  high quality and security for users's data and front-end side also with responsive CSS design, focusing on
+  creating pixel-perfect, user-friendly interfaces.`}
           </p>
         </FramerWrapper>
       </div>
@@ -44,7 +40,7 @@ const page = () => {
       <FramerWrapper className="block" y={100} delay={0.31}>
         <h1 className="gap-2 text-3xl font-poppins text-primary font-semibold flex icon_underline relative max-sm:text-2xl">
           {" "}
-          <Heart className="h-8 w-8" /> Hobbies
+          <Heart className="h-8 w-8" /> {`Hobbies`}
         </h1>
         <div className="w-full h-fit p-2 flex flex-row justify-between gap-7 max-lg:flex-col">
           {items.map((val, indx) => {
