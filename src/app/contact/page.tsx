@@ -37,7 +37,7 @@ const contactPage = () => {
       </Badge>
 
       <div className="flex flex-col gap-3 w-full">
-        <Heading>Contact Me!</Heading>
+        <Heading>{`Contact Me!`}</Heading>
 
         <FramerWrapper
           className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full mt-8"
@@ -62,8 +62,8 @@ const contactPage = () => {
         </FramerWrapper>
 
         <p className="font-poppins text-lg w-full text-primary max-sm:text-base mt-8">
-          Let's connect! Whether you have a question, opportunity, or just want to chat tech,
-          I'm always open to interesting conversations.
+          {`Let's connect! Whether you have a question, opportunity, or just want to chat tech,
+          I'm always open to interesting conversations.`}
         </p>
       </div>
     </div>

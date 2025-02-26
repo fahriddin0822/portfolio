@@ -12,7 +12,7 @@ const educationPage = () => {
         Education
       </Badge>
       <div className="flex flex-col gap-3">
-        <Heading>My Education</Heading>
+        <Heading>{`My Education`}</Heading>
       </div>
       <div className="w-full h-fit flex flex-col">
         <div className="w-full h-fit flex">
@@ -22,7 +22,7 @@ const educationPage = () => {
             delay={0.35}
             className="w-1/4 font-rubik flex items-center justify-evenly text-lg max-sm:text-base "
           >
-            July 2023 - 2025
+            {`July 2023 - 2025`}
           </FramerWrapper>
           <FramerWrapper
             y={0}
@@ -31,13 +31,13 @@ const educationPage = () => {
             className="relative w-3/4 border-l-4 border-l-[#3c3c3c] p-4 gap-3 education_point "
           >
             <div className="text-2xl font-rubik max-sm:text-xl">
-              Full-Stack web development, <br /> Najot Ta'lim LC
-              Tashkent
+              {`Full-Stack web development, <br /> Najot Ta'lim LC
+              Tashkent`}
             </div>
             <p className=" font-poppins text-base w-full text-primary  max-sm:text-xs">
-              I have completed Full-Stack web developmen bootcamp course at the Najot Ta'lim learning centre. The program
+              {`I have completed Full-Stack web developmen bootcamp course at the Najot Ta'lim learning centre. The program
               has provided me with a well-rounded education, covering both
-              theoretical foundations and practical applications of web development.
+              theoretical foundations and practical applications of web development.`}
             </p>
           </FramerWrapper>
         </div>
