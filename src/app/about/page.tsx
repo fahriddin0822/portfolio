@@ -25,7 +25,7 @@ const page = () => {
         <FramerWrapper y={0} x={100}>
           <p className=" font-poppins text-xl w-full text-primary max-sm:text-lg ">
             I am a Full Stack Web Developer from Samarkand, Samarkand city,
-            Uzbekistan. I&apos;m passionate about crafting web projects and
+            Uzbekistan. I'm passionate about crafting web projects and
             contributing to open-source communities. I specialize in modern
             JavaScript frameworks for back-end applictions using node.js with 
             high quality and security for users's data and
